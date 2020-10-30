@@ -27,20 +27,20 @@ async function createWidget() {
   widget.addSpacer(4)
   const logoImg = await getImage('logo.png')
 
-  widget.setPadding(10, 10, 10, 10)
+  widget.setPadding(5, 10, 10, 10)
   const titleFontSize = 12
   const detailFontSize = 36
 
   const logoStack = widget.addStack()
-  logoStack.addSpacer(80)
+  logoStack.addSpacer(90)
   const logoImageStack = logoStack.addStack()
   logoStack.layoutHorizontally()
   logoImageStack.backgroundColor = new Color("#ffffff", 1.0)
   logoImageStack.cornerRadius = 6
   const wimg = logoImageStack.addImage(logoImg)
-  wimg.imageSize = new Size(50, 50)
+  wimg.imageSize = new Size(40, 40)
   wimg.rightAlignImage()
-  widget.addSpacer()
+//   widget.addSpacer()
 
   let row = widget.addStack()
   row.layoutHorizontally()
@@ -50,13 +50,13 @@ async function createWidget() {
   column.layoutVertically()
 
   const paperText = column.addText("notiz.Blog")
-  paperText.font = Font.mediumRoundedSystemFont(20)
+  paperText.font = Font.mediumRoundedSystemFont(18)
     
   // Last Artikel Title
   const lastArtikel = column.addText(apiData.items[0].title)
   lastArtikel.font = Font.mediumRoundedSystemFont(14)
   lastArtikel.textColor = new Color("#00CD66")
-  widget.addSpacer(2)
+  widget.addSpacer(0)
 
   // string has max length for date 
   let apiDatePub = apiData.items[0].date_published
@@ -73,9 +73,16 @@ async function createWidget() {
     const row2 = widget.addStack()
     row2.layoutVertically()
 
-    const street = row2.addText("New Artikel")
-    street.font = Font.regularSystemFont(14)
-    street.textColor = new Color("#00CD66")
+    const newArti = row2.addText("New Artikel")
+    newArti.font = Font.regularSystemFont(14)
+    newArti.textColor = new Color("#00CD66")
+    }else{
+     // row two
+    const row2 = widget.addStack()
+    row2.layoutVertically()
+
+    const newArt = row2.addText(apiData.description)
+    newArt.font = Font.regularSystemFont(10)
   }
 }
 
@@ -90,20 +97,20 @@ async function getNewCasesData() {
   return apiResult
 }
 
-// create date 
+
 async function getDate() {
 
   let currentTime = new Date().toLocaleTimeString('de-DE', { hour: "numeric", minute: "numeric" })
   let currentDay = new Date().getDate();
   let currentMonth = new Date().getUTCMonth()+1;
-  let currentYear = new Date().getFullYear();  
+  let currentYear = new Date().getFullYear();
+  
   let date = (currentYear + "-" + currentMonth + "-" + currentDay); 
   
 //     console.log("Date: " + date)
   
     return date
 }
-
 
 // get images from local filestore or download them once
 async function getImage(image) {
