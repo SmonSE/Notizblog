@@ -5,22 +5,16 @@ This is a collection of iOS-Widget scrips, which can be used with the Scritable 
 
 ![Screenshot](notizblog.jpg)
 
-# Wie man Scriptable-Widget dem Home-Screen hinzufügt
+# How to add scriptable widget to the home screen
 
-Egal, für welches Widget Sie sich entschieden haben, das Einstellungsprozedere in iOS ist immer das gleiche:
+Regardless of which widget you have chosen, the setting procedure in iOS is always the same:
 
-Fügen Sie zunächst den kopierten Code einem neuen Script hinzu.
-
-Mit einem Tipp auf das Regler-Icon ganz unten in der linken Ecke des Bildschirmes können Sie das Script aussagekräftig benennen und ein passendes Icon (Glyph) dafür auswählen.
-
-Danach wechseln Sie in den Widget-Bildschirm, indem Sie in Ihren Home-Bildschirmen so lang wie möglich nach links scrollen.
-
-Tippen und halten Sie in diesem Bildschirm so lang, bis die voreingestellten Widgets beginnen zu wackeln. Sie sind nun im Bearbeitungs-Modus. Tippen Sie in diesem Modus auf das Plus-Zeichen in der oberen linken Ecke und scrollen Sie in der erscheinenden Liste bis zu "Scriptable".
-
-Hier können Sie noch das Aussehen auswählen und das Widget hinzufügen.
-
-Tippen Sie nochmals auf das Scriptable-Widget, solange die Icons wackeln. Hier bekommen Sie die Möglichkeit, das passende Script auszuwählen.
-
-Tippen Sie hierzu auf "Auswählen" in der Zeile "Script", die App wird Ihnen alle bisher erstellten Scripts einblenden, die sich nun auswählen lassen. Ziehen Sie das Widget anschließend auf eine Stelle im Bildschirm Ihrer Wahl und beenden Sie den Bearbeitungsmodus.
+- First, add the copied code to a new script.
+- With a tip on the controller icon at the very bottom in the left corner of the screen, you can give the script a meaningful name and select a suitable icon (glyph) for it.
+- After that, switch to the widget screen by scrolling left on your home screens as long as possible.
+- Tap and hold on this screen until the preset widgets start to wobble. You are now in edit mode. In this mode, tap on the plus sign in the upper left corner and scroll down to „Scriptable“ in the list that appears.
+- Here you can still select the appearance and add the widget.
+- Tap the Scriptable widget again while the icons are wobbling. Here you have the opportunity to select the appropriate script.
+- To do this, tap on „Select“ in the „Script“ line, the app will show you all the scripts that have been created so far, which can now be selected. Then drag the widget to a location on the screen of your choice and exit edit mode.
 
 https://www.macwelt.de/tipps/So-erstellen-Sie-eigene-iOS-Widgets-Klopapier-bei-DM-Corona-Zahlen-Datenvolumen-bei-Telekom-10910000.html
