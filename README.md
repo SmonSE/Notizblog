@@ -3,7 +3,7 @@ Loading JSON content from website to display it in the IOS widget by Scriptable
 
 This is a collection of iOS-Widget scrips, which can be used with the Scritable App. You have do download App "Scriptable" from the App Store: https://apps.apple.com/de/app/scriptable/id1405459188
 
-![Screenshot](notizblog.jpg)
+![Screenshot](wordpress_blog.jpg)
 
 # How to add scriptable widget to the home screen
 
